@@ -1,3 +1,0 @@
-dev test file
-test for git
-test for pull
