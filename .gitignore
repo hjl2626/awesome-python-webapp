@@ -58,4 +58,4 @@ target/
 
 #myignore
 **/test.py
-
+.idea/*
