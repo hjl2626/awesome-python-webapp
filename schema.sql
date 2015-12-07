@@ -1,12 +1,12 @@
 -- init database
-
+--如果表的数量很多，可以从 Model 对象直接通过脚本自动生成SQL脚本，使用更简单。
 drop database if exists awesome;
 
 create database awesome;
 
 use awesome;
 
-# grant select, insert, update, delete on awesome.* to 'www-data'@'localhost' identified by 'www-data';
+-- grant select, insert, update, delete on awesome.* to 'www-data'@'localhost' identified by 'www-data';
 
 create table users (
     `id` varchar(50) not null,
